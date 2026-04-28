@@ -11,12 +11,12 @@ public class MultiplayerMenu : MonoBehaviour
 
     public void StartClient()
     {
-        NetworkManager.Singleton.StartHost();
+        NetworkManager.Singleton.StartClient();
     }
 
     public void StartServer()
     {
-        NetworkManager.Singleton.StartHost();
+        NetworkManager.Singleton.StartServer();
     }
 
 }
